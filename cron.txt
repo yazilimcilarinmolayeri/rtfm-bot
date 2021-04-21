@@ -1,1 +1,1 @@
-@reboot cd /home/user/fakeai-bot/;/bin/bash run.sh
+@reboot cd /home/user/rtfm-bot/;/bin/bash run.sh

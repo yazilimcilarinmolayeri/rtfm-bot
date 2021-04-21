@@ -1,0 +1,10 @@
+{
+    "rules": {
+        "1": "Yanlış kanallarda (özellikle #sohbet kanalında) yardım istemeyin.",
+        "2": "Yardım alınacak konu hakkında detaylı bilgi verin.",
+        "3": "'Yardım edin!', 'Bunu biliyor musunuz?' vb. isteklerde bulunmayın.",
+        "4": "Yardım alacağınız konuya ilişkin rolü mesaja ekleyin.",
+        "5": "Yardım almadan önce arama motorlarını kullandığınıza emin olun."
+    },
+    "advices": "Paylaşımcı olun, davetkar olun, dışadönük olun, düşünceli olun."
+}

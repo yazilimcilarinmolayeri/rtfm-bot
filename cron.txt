@@ -1,0 +1,1 @@
+@reboot cd /home/user/fakeai-bot/;/bin/bash run.sh

@@ -1,0 +1,1 @@
+Blacklist source: https://github.com/ooguz/turkce-kufur-karaliste

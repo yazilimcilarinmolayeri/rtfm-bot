@@ -15,9 +15,7 @@ CONFIG.read("config.ini")
 
 class Bot(commands.Bot):
     def __init__(self):
-        super().__init__(
-            command_prefix=CONFIG["bot"]["PREFIX"], intents=intents
-        )
+        super().__init__(command_prefix=CONFIG["bot"]["PREFIX"], intents=intents)
 
         self.color = 0x2F3136
         self.config = CONFIG

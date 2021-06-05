@@ -32,13 +32,16 @@ class Event(commands.Cog):
     @commands.Cog.listener(name="on_message")
     async def on_chat(self, message):
         author = message.author
-
         if author.bot:
             return
 
     @commands.Cog.listener(name="on_message")
     async def on_invite(self, message):
         content = message.content.lower()
+        author = message.author
+        if author.bot:
+            return
+
 
         if content.startswith("davet") or content.startswith("invite"):
             invite = await self.bot.fetch_invite(self.invite_address)
